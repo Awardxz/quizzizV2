@@ -8,8 +8,8 @@ async function fetchAnswers() {
 
     if (data.message === "Ok" && data.data && data.data.answers) {
         answers1 = data.data.answers.map(answer => {
-            const questionText = answer.question.text.replace(/<[^>]*>?/gm, '').trim(); // Remove HTML tags from question text
-            const answerText = answer.answers[0].text.replace(/<[^>]*>?/gm, '').trim(); // Remove HTML tags from answer text
+            const questionText = answer.question.text.replace(/<[^>]*>?/gm, '').trim();
+            const answerText = answer.answers[0].text.replace(/<[^>]*>?/gm, '').trim(); 
             return { question: questionText, answer: answerText };
         });
     } else {
