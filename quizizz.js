@@ -8,8 +8,8 @@ async function fetchAnswers() {
 
     if (data.message === "Ok" && data.data && data.data.answers) {
         answers1 = data.data.answers.map(answer => {
-            const questionText = answer.question.text.replace(/<[^>]*>?/gm, '').trim();
-            const answerText = answer.answers[0].text.replace(/<[^>]*>?/gm, '').trim(); 
+            const questionText = answer.question.text.replace(/<[^>]*>?/gm, '').trim(); // Remove HTML tags from question text
+            const answerText = answer.answers[0].text.replace(/<[^>]*>?/gm, '').trim(); // Remove HTML tags from answer text
             return { question: questionText, answer: answerText };
         });
     } else {
@@ -20,12 +20,15 @@ async function fetchAnswers() {
 
 function checkForQuestion() {
     const questionElement = document.querySelector('.resizeable.gap-x-2.question-text-color.text-light');
+    const answerElement = document.createElement('p')
     if (questionElement) {
         const currentQuestion = questionElement.textContent.trim();
         const matchingPair = answers1.find(pair => pair.question === currentQuestion);
         if (matchingPair) {
             console.log("Found question:", matchingPair.question);
             console.log("Answer:", matchingPair.answer);
+            answerElement.textContent = matchingPair.answer;
+            questionElement.append(answerElement)
         } else {
             console.log("Question found, but no matching answer in the array.");
         }
