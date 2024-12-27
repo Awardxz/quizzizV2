@@ -5,6 +5,7 @@ A new branch has been created for QuizizzV2.5. This version now uses its own bui
 
 ## New Update #2
 Version quizzizV2.5.
+Highlighting Added.
 
 ## How it works
 1. Open the console.
