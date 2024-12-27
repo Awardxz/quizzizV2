@@ -1,13 +1,17 @@
-# Quizizz Cheat ( fixed )
-## New Update #1
-New Branch Created QuizizzV2. Uses the same method by using quizit.online api but shows answers on the screen this time :).
-## Why i made it
-I made this because i was bored.
-## How it works 
-Just open console, execute this and it will print the answers out.
-Works by fetching answers from a api by also getting the pin code from a class in the website.
-Then we can easily just catch and bingo.
-Undetected.
-### TODO :
-Maybe in the future i will improvise add highlighting and stuff but for the moment it works.
+# quizizzV2.5
 
+## New Update #1
+A new branch has been created for QuizizzV2.5. This version now uses its own built API from the quizizzSoft project.
+
+## New Update #2
+Version quizzizV2.5.
+
+## How it works
+1. Open the console.
+2. Execute the provided script.
+3. The script will print the answers by fetching them from the new quizizzSoft API and obtaining the pin code from the class on the website.
+
+This method is undetected and works seamlessly.
+
+### TODO:
+Future improvements may include adding highlighting and other features, but for now, it works effectively.
