@@ -1,4 +1,4 @@
-# Quizizz Cheat ( broken atm )
+# Quizizz Cheat ( fixed )
 ## New Update #1
 New Branch Created QuizizzV2. Uses the same method by using quizit.online api but shows answers on the screen this time :).
 ## Why i made it
