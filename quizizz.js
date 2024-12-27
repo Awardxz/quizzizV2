@@ -28,6 +28,7 @@ function checkForQuestion() {
             console.log("Found question:", matchingPair.question);
             console.log("Answer:", matchingPair.answers);
             answerElement.textContent = matchingPair.answers;
+            answerElement.style.color = 'green';
             questionElement.append(answerElement)
         } else {
             console.log("Question found, but no matching answer in the array.");
