@@ -1,5 +1,7 @@
 # quizizzV2.5
 
+# NOTE : You need your OWN API / A Working Quizizz Cheat API
+
 ## New Update #1
 A new branch has been created for QuizizzV2.5. This version now uses its own built API from the quizizzSoft project.
 
