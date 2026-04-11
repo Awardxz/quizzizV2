@@ -1,4 +1,4 @@
-# quizizzV2.5
+# quizizzV2.5 [OUTDATED] 
 
 ## NOTE : You need your OWN API / A Working Quizizz Cheat API
 
@@ -14,7 +14,7 @@ Highlighting Added.
 2. Execute the provided script.
 3. The script will print the answers by fetching them from the new quizizzSoft API and obtaining the pin code from the class on the website.
 
-This method is undetected and works seamlessly.
+// This method is undetected and works seamlessly.
 
 ### TODO:
 Future improvements may include adding highlighting and other features, but for now, it works effectively.
